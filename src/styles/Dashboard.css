@@ -1,0 +1,18 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dashboard h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .dashboard h1 {
+    font-size: 2rem;
+  }
+} 
